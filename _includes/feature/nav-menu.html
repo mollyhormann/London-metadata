@@ -13,5 +13,4 @@
 {%- endcomment -%}
 {% assign sections = include.sections | split: ';'%}
 <p class="h6 shadow-sm p-3 about-nav sticky-top bg-white" >
-    Contents: {% for section in sections %}<a class="mx-2" href="#{{ section | slugify }}">{{ section }}</a> {% unless forloop.last %}| {% endunless %}{% endfor %}{% if page.credits == true %}| <a class="mx-2" href="#technical">Tech</a>{% endif %}
-</p>
+    Contents: When traveling to London, there are so many places to visit. I created this guide of sorts to help you figure out a variety of areas that I recommend you go and see. A majority of them are free, but the few that cost are worth the money.
